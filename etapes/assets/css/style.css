@@ -1,0 +1,17 @@
+Header {
+    width: 100vw;
+    height:10vh;
+    background-color: blue;
+}
+
+Main {
+    width: 100vw;
+    height:85vh;
+    background-color: red;
+}
+
+Footer {
+    width: 100vw;
+    height:5vh;
+    background-color: green;
+}

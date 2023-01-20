@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+html .hidden {
+  display: none;
+}
+html .open {
+  display: block;
+}
+html .close {
+  display: none;
+}
+html .border-bottom {
+  border-bottom: 1px solid black;
+}
+html .border-right {
+  border-right: 1px solid black;
+}
+html body {
+  display: grid;
+  grid-template-rows: 0.18fr 0.9fr;
+  widows: 100vw;
+  height: 100vh;
+}
+html body header {
+  display: grid;
+  grid-template-columns: 0.25fr 0.75fr;
+}
+html body header > section > section {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+  margin: 5px 0 0 10px;
+}
+html body header > section > section button {
+  grid-column: 1/2;
+  width: 50px;
+  height: 80px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+html body header > section > section button span {
+  font-size: 3rem;
+  justify-self: left;
+  align-self: center;
+}
+html body header > section > section figure {
+  grid-column: 2/3;
+  justify-self: left;
+  align-self: center;
+}
+html body header > section:last-of-type {
+  border-bottom: 1px solid black;
+}
+html body main {
+  display: grid;
+  grid-template-columns: 0.25fr 0.75fr;
+}
+html body main aside nav:first-of-type {
+  margin-top: 95px;
+}
+html body main aside nav {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+html body main aside nav h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+html body main aside nav a {
+  color: black;
+  text-decoration: none;
+}
+html body main aside nav ul li:first-of-type {
+  margin-top: 15px;
+}
+html body main aside nav ul li:last-of-type {
+  margin-bottom: 20px;
+}
+html body main aside nav ul li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+html body main aside nav ul li span {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+html body main aside nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+html body main section {
+  border-left: 1px solid black;
+}
+
+/*# sourceMappingURL=projet.css.map */
